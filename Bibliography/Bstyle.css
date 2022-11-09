@@ -1,0 +1,33 @@
+*{
+    background-color: #f9f4ef;
+}
+
+div {
+    background-color: #a1291e;
+    display: flex;
+    text-align: left;
+    margin: 200px;
+    justify-content: space-between;
+    border: 10px solid white;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+div h1{
+    background-color: #a1291e;
+    color: white;
+    font-size: 30px;
+}
+
+div ul {
+    background-color: #a1291e;
+    color: white;
+
+}
+
+div ul li {
+    background-color: #a1291e;
+    color: white;
+    font-size: 20px;
+
+}

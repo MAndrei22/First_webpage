@@ -1,0 +1,264 @@
+* {
+    padding:0;
+    margin: 0;
+    font-family: 'Josefin Sans',sans-serif;
+    box-sizing: border-box;
+  }
+
+.header {
+    background-color: #f9f4ef;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a {
+    color: #020826;
+    text-decoration: none;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 20px;
+
+}
+nav ul li a:hover {
+    color:#a1291e;
+    transition: .4s;
+}
+.logo {
+    font-size: 40px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    color: #020826;
+    text-transform: capitalize;
+}
+
+
+span{
+    color: #a1291e; 
+    text-transform: capitalize;
+}
+
+span:hover{
+    color:#8c7851;
+    transition: .4s;
+}
+
+.hero {
+    background-color:#f9f4ef ;
+    display: flex;
+    height: auto;
+    width: auto;
+    padding: 20px;
+    justify-content: space-between;
+    padding-left: 7%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+.herotxt {
+    margin: 10px;
+    flex-direction: column;
+    font-size: 20px;
+
+}
+
+.firstimage {
+    height: 500px;
+    width: auto;
+    padding: 30px;
+    border-radius: 50px;
+    margin-left: 5%;
+}
+
+.titletext {
+    margin-bottom: 20px ;
+    font-size: 40px;
+    
+}
+
+.presentationtext {
+    margin-bottom: 40px ;
+}
+
+.btn11 {
+    background-color: #a1291e;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 20px 45px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.btn11:hover { 
+    transform: scale(1.2);
+}
+
+
+.top5 {
+    height: auto;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+
+    
+}
+.top {
+    margin: 50px;
+    
+    
+}
+.top5 h3{
+    text-align: center ;
+    font-size: 35px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+
+.top ul {
+    height: auto;
+    width: auto;
+    text-align: center;
+    border: 10px;
+    display: flex;
+    
+    
+
+}
+
+.topnr {
+    font-weight: bolder;
+    font-size: 10px;
+    color: #a1291e;
+}
+
+.top ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 4px;
+    justify-content: space-between;
+    flex-direction: column;
+    height:auto;
+    align-items: center;
+    border-radius: 25px;
+    margin: 5px;
+    flex: 1;
+    text-align: center;
+} 
+
+.top ul li p{
+    font-size: 20px;
+    padding-top: 10px;
+    margin: 5px;
+    height: auto;
+    text-align: center;
+    border: 2px;
+}
+
+.topimg {
+    border: 3px solid #a1291e;
+    border-radius: 25px;
+    width: 250px;
+    height: 250px;
+    radius: 20px;
+    margin: 0;
+    transition: transform .3s;
+}
+
+.topimg:hover { 
+    transform: scale(.9);
+}
+
+.vers {
+    height: auto;
+    width: auto;
+    padding: 100px;
+    background-color: #c9a868;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.verstext{
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+.versautor {
+    text-align: right;
+    font-size: 30px;
+    color: white;
+}
+
+
+.contact {
+    height: 250px;
+    width: auto;
+    display: flex;
+    align-items:center ;
+    border-radius: 30px;
+    margin: 150px;
+    justify-content: space-between;
+    background-color: #a1291e;
+    padding: 50px;
+    padding-left: 150;
+    padding-right: 150;
+}
+
+.contactbold {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.contacttextsimple {
+    font-size: 20px;
+    color: white;
+
+}
+
+.btn22 {
+    background-color: #a1291e;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    border: 2px solid white;
+    font-weight: bold;
+    padding: 15px 45px;
+    border-radius: 15px;
+    transition: transform .3s;
+}
+
+.btn22:hover { 
+    transform: scale(1.1);
+}
+
+
+.copyright{
+    height: 100px;
+    background-color: #f5e7da;
+    text-align: center;
+    padding: 50px;
+    font-size: 20px;
+    color: #a1291e;
+}
+
